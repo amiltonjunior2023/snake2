@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #000;
+    color: #fff;
+    background-image: url(imagem/snake.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+canvas {
+    background-color: #111;
+}
+
+#controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#score, #highScore {
+    font-size: 20px;
+    margin-left: 20px;
+    
+}
+
+.custom-margin {
+    margin-right: 10px; /* Ajuste o valor conforme necessário */
+}
